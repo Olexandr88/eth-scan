@@ -15,6 +15,17 @@ module.exports = {
       port: 8545,
       network_id: '*'
     },
+    conduit: {
+      provider: function() {
+        return new HDWalletProvider(
+          ["0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"],
+          "https://rpc-disturbed-tan-dog-5lsohdtmas.t.conduit.xyz")
+      },
+      network_id: 888,
+      gas: 10000000,
+      gasPrice: 1000000000,
+      skipDryRun: false
+    },
 
     ropsten: {
       provider: () =>
