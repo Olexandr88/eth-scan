@@ -111,7 +111,7 @@ Get ERC-20 token balances from `tokens` for `address`. If one of the token addre
 
 ### `BalanceMap`
 
-A `BalanceMap` is an object with an address as key and a [bigint](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) as value.
+A `BalanceMap` is an object with an address as key and a [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) as value.
 
 ### Providers
 
